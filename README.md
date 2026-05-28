@@ -2,7 +2,7 @@
 
 > Fork 自 [233Isaac/DeadlockSC](https://github.com/233Isaac/DeadlockSC)（簡中原版）→ [cycleapple/DeadlockTC](https://github.com/cycleapple/DeadlockTC)（繁中初版）→ 本 fork（補翻最新版 + 工具鏈現代化）
 
-**最新更新**：2026-05-28，全量補翻新版 Deadlock 新增的 **4877 條字串**，並補上新版部署所需的語言模組與一鍵安裝器。
+**最新更新**：2026-05-28，全量補翻新版 Deadlock 新增的 **5378 條字串**，並補上新版部署所需的語言模組與一鍵安裝器。
 
 ---
 
@@ -10,7 +10,7 @@
 
 cycleapple 原 fork 停更於 2024-11，期間 Deadlock 經歷大改：
 
-- 新增約 **4877 條未翻字串**（主要在 citadel_main / heroes / attributes / mods / gc）
+- 新增約 **5378 條未翻字串**（涵蓋 citadel_main / heroes / attributes / mods / gc / gc_mod_names / patch_notes / accolades）
 - Valve 從 `citadel/gameinfo.gi` 的 `SupportedLanguages` **移除了 tchinese 登記**
 - 原 Updater 的「散檔 + `-language tchinese`」方法**已不再 work**（語言下拉沒繁中，啟動參數也會 fallback 回 English）
 
@@ -18,7 +18,7 @@ cycleapple 原 fork 停更於 2024-11，期間 Deadlock 經歷大改：
 
 | 補強 | 說明 |
 |---|---|
-| 4877 條新版翻譯 | 台灣用語、英雄名保留英文 |
+| 5378 條新版翻譯 | 台灣用語、英雄名保留英文 |
 | `citadel_tchinese/` 語言模組 | 含 gameinfo.gi，讓 Deadlock 認可繁中 |
 | `citadel/cfg/boot.vcfg` | 強制 UILanguage=tchinese |
 | **`install.py` 一鍵安裝器** | 自動偵測路徑、複製檔、patch Valve 原檔、備份 |
@@ -170,4 +170,4 @@ DeadlockTC/
 
 - [233Isaac/DeadlockSC](https://github.com/233Isaac/DeadlockSC) — 簡中翻譯原始來源
 - [cycleapple/DeadlockTC](https://github.com/cycleapple/DeadlockTC) — 繁中初版 fork
-- 本 fork 由 Claude (Anthropic Opus 4.7) 協助補翻 4877 條與重建工具鏈
+- 本 fork 由 Claude (Anthropic Opus 4.7) 協助補翻 5378 條與重建工具鏈
