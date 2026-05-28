@@ -153,7 +153,7 @@
 		
 		"citadel_ability_fissure_wall"			"無光之牆"
 		"citadel_ability_fissure_wall_quip"		"召喚一堵牆來阻擋你的敵方目標"
-		"citadel_ability_fissure_wall_desc"		"使用後，創造一堵牆<span class=\"highlight\">將地形一分為二</span>。牆創造後會對牆附近附近敵方目標<span class=\"highlight\">造成傷害和施加減少移速</span>，<br>牆創造後使用[{s:iv_attack}]或者[{s:in_ability3}]來將牆壁解除"
+		"citadel_ability_fissure_wall_desc"		"使用後，創造一堵牆<span class=\"highlight\">將地形一分為二</span>。牆創造後會對牆附近附近敵方目標<span class=\"highlight\">造成傷害和施加減少移速</span>，<br>牆創造後使用{g:citadel_binding:'Attack'}或者{g:citadel_binding:'Ability3'}來將牆壁解除"
 		"citadel_ability_fissure_wall_t1_desc"	"擊中對後對目標<span class=\"highlight\">移除{s:StaminaReduction}點耐力</span>並且{s:hero_name}對目標的造成的傷害增幅<span class=\"highlight\">{s:BonusDamagePercent}%</span>持續{s:DebuffDuration}秒"
 		"citadel_ability_fissure_wall_t3_desc"	"擊中對敵方目標施加<span class=\"highlight\">{s:WallStunDuration}秒眩暈</span>"
 		"citadel_ability_fissure_wall_trigger"	"無光之牆"
@@ -376,7 +376,7 @@
 
 		"citadel_ability_chrono_kinetic_carbine"		"動能卡賓"
 		"citadel_ability_chrono_kinetic_carbine_quip"	"為子彈充能，造成高傷害並對敵方目標施加時間停止效果"
-		"citadel_ability_chrono_kinetic_carbine_desc"	"使用後為子彈充能，充能後可<span class=\"highlight\">獲得更快的移速</span>。你的下一擊將釋放能量，造成<span class=\"highlight\">魂力傷害，並對敵方目標施加時間停止</span>。造成的傷害是當前子彈傷害的倍率。 <br><br>可以通過按下 [{s:iv_attack2}]來延緩自己的時間。"
+		"citadel_ability_chrono_kinetic_carbine_desc"	"使用後為子彈充能，充能後可<span class=\"highlight\">獲得更快的移速</span>。你的下一擊將釋放能量，造成<span class=\"highlight\">魂力傷害，並對敵方目標施加時間停止</span>。造成的傷害是當前子彈傷害的倍率。 <br><br>可以通過按下 {g:citadel_binding:'ADS'}來延緩自己的時間。"
 		"citadel_ability_chrono_kinetic_carbine_t2_desc"	"{s:AbilityCooldown}s冷卻時間和增加{s:SpeedBoostDuration}秒加速持續"
 	
 		"citadel_ability_chrono_kinetic_carbine_t1_desc"  "增加<span class=\"highlight\">{s:MaxSlowDuration}秒</span>最低/最高時間停止持續"
@@ -455,7 +455,7 @@
 
 		"ability_flame_dash"			"火焰疾跑"
 		"ability_flame_dash_quip"		"勇往直前，留下一串火焰足跡"
-		"ability_flame_dash_desc"		"使用後向前疾跑獲得<span class=\"highlight\">額外移速</span>並且留下火焰路徑<span class=\"highlight\">燃燒敵方目標</span>。<br>按住[{s:iv_attack}]使疾跑更快."
+		"ability_flame_dash_desc"		"使用後向前疾跑獲得<span class=\"highlight\">額外移速</span>並且留下火焰路徑<span class=\"highlight\">燃燒敵方目標</span>。<br>按住{g:citadel_binding:'MoveForward'}使疾跑更快."
 		"ability_flame_dash_t1_desc"	"<span class=\"highlight\">減少{s:FireRateSlow}%射速持續</span>{s:FlameDashDebuffDuration}秒"
 		"modifier_flamedash"			"火焰疾跑"
 		"ability_flame_dash_cancel_trigger"	"取消火焰疾跑"
@@ -599,7 +599,7 @@
 
 		"citadel_ability_void_sphere"				"量子糾纏"
 		"citadel_ability_void_sphere_quip"		"閃爍一段距離並且無敵"
-		"citadel_ability_void_sphere_desc"		"使用後{s:hero_name} <span class=\"highlight\">短暫消失在虛空中</span>，然後在選定的位置再次出現。再次出現時，你的武器會<span class=\"highlight\">重新裝彈</span>，並在下一個彈匣中獲得射速加成。可按下 [{s:key_alt_cast}] 使附近的友方英雄也加入進來並獲得一半的射速加成。"
+		"citadel_ability_void_sphere_desc"		"使用後{s:hero_name} <span class=\"highlight\">短暫消失在虛空中</span>，然後在選定的位置再次出現。再次出現時，你的武器會<span class=\"highlight\">重新裝彈</span>，並在下一個彈匣中獲得射速加成。可按下 {g:citadel_binding:'AltCast'} 使附近的友方英雄也加入進來並獲得一半的射速加成。"
 		"citadel_ability_void_sphere_t3_desc"		"重新出現時獲得<span class=\"highlight\">{s:AbilityCooldown} 秒</span>技能冷卻時間與<span class=\"highlight\">+{s:BonusClipSizePercent}%</span>基礎彈藥"
 		"modifier_void_sphere"					"量子糾纏"
 		"modifier_voidsphere_buff"				"量子糾纏 額外射速"
@@ -842,7 +842,7 @@
 
 		"citadel_ability_lash_ultimate"			"死亡猛擊"
 		"citadel_ability_lash_ultimate_quip"		"舉起敵人並將其砸向地面"
-		"citadel_ability_lash_ultimate_desc"		"使用後將集中注意力到敵方英雄目標，將鞭子連接到他們身上。連接後，被連接的敵人會被<span class=\"highlight\">帶到空中並且施加眩暈</span>，然後重重地摔在地上。目標敵方目標和著陸區範圍內的敵方目標都會受到<span class=\"highlight\">傷害並施加減少移速</span>。<br>按下 [{s:iv_attack}] 可以提前扔出相連的敵方目標。在鎖定時間內不在視線內或超出範圍的敵人將不會被抓取。"
+		"citadel_ability_lash_ultimate_desc"		"使用後將集中注意力到敵方英雄目標，將鞭子連接到他們身上。連接後，被連接的敵人會被<span class=\"highlight\">帶到空中並且施加眩暈</span>，然後重重地摔在地上。目標敵方目標和著陸區範圍內的敵方目標都會受到<span class=\"highlight\">傷害並施加減少移速</span>。<br>按下 {g:citadel_binding:'Attack'} 可以提前扔出相連的敵方目標。在鎖定時間內不在視線內或超出範圍的敵人將不會被抓取。"
 		"citadel_ability_lash_ultimate/modifier_lash_grapple_enemy_debuff"		"死亡猛擊"
 		"citadel_ability_lash_ultimate_debuff"	"減少移速"
 
@@ -888,7 +888,7 @@
 
 		"ability_icepath"					"寒冰路徑"
 		"ability_icepath_quip"				"在漂浮的冰道上飛馳"
-		"ability_icepath_desc"				"使用後{s:hero_name}製造一條漂浮的<span class=\"highlight\">寒冰路徑</span>，為他和他的友方英雄提供移動加成。會在持續時間內獲得{s:SlowResistancePercent}%減速抗性，敵人也可以在寒冰路徑上行走。<br>在冰雪路徑中，按下[{s:key_innate_1}] / [{s:key_duck}]可以向上或向下移動。"
+		"ability_icepath_desc"				"使用後{s:hero_name}製造一條漂浮的<span class=\"highlight\">寒冰路徑</span>，為他和他的友方英雄提供移動加成。會在持續時間內獲得{s:SlowResistancePercent}%減速抗性，敵人也可以在寒冰路徑上行走。<br>在冰雪路徑中，按下 {g:citadel_binding:'Roll'} / {g:citadel_binding:'Crouch'} 可以向上或向下移動。"
 		"ability_icepath_t3_desc"			"技能啟用後 每創造一公尺冰徑路徑可獲得{s:BonusSpiritMeter}魂力 最大為{s:BonusSpiritMax}"
 		"SprintSpeedBonus_label"				"疾跑速度"
 		"SprintSpeedBonus_prefix"				"+"
@@ -1035,7 +1035,7 @@
 		//-----------------------------------------------------------------------------
 
         "ability_perched_predator"              "賽赫邁特之靈"
-        "ability_perched_predator_desc"         "向前派出靈魂貓，它會抓住路徑上的目標。抓住英雄後會在短時間內引發爆炸。<br>按 [{s:in_ability1}] 可手動引爆。"
+        "ability_perched_predator_desc"         "向前派出靈魂貓，它會抓住路徑上的目標。抓住英雄後會在短時間內引發爆炸。<br>按 {g:citadel_binding:'Ability1'} 可手動引爆。"
         "ability_perched_predator_quip"         "派出靈魂貓抓住敵人"
         //"CatExplosionCount_label"             "爆炸次數"
         //"CatMaxSpeed_label"                   "靈魂貓最大速度"
@@ -1121,7 +1121,7 @@
 		//-----------------------------------------------------------------------------
 		"ability_charged_shot"		"蓄力射擊"
 		"ability_charged_shot_quip"	"充能遠距離射擊"
-		"ability_charged_shot_desc"	"使用後<span class=\"highlight\">蓄力弓箭，射擊穿透敵人。</span>按住 [{s:ability_key}] 或者 [{s:iv_attack}] 來射擊。"
+		"ability_charged_shot_desc"	"使用後<span class=\"highlight\">蓄力弓箭，射擊穿透敵人。</span>按住 {g:citadel_binding:'Ability1'} 或者 {g:citadel_binding:'Attack'} 來射擊。"
 		"ability_charged_shot_t2_desc"	"<span class=\"highlight\">增加{s:Damage} 傷害</span>"
 		"ability_charged_shot_t3_desc"	"<span class=\"highlight\">改進魂力加成傷害比率</span> 並且減少 <span class=\"highlight\">{s:AbilityCooldownBetweenCharge}s</span> 充能延遲。"
 
@@ -1130,7 +1130,7 @@
 		
 		"ability_power_jump"			"箭雨"
 		"ability_power_jump_quip"		"高高跳起，釋放多重射擊"
-		"ability_power_jump_desc"		"使用後將你高跳到高空，讓你可以緩慢滑行。在空中飛行時，你會獲得<span class=\"highlight\">子彈傷害和子彈多重射擊</span>加成。按下 [{s:in_mantle}] 可取消滑翔。"
+		"ability_power_jump_desc"		"使用後將你高跳到高空，讓你可以緩慢滑行。在空中飛行時，你會獲得<span class=\"highlight\">子彈傷害和子彈多重射擊</span>加成。<br>{g:citadel_binding:'AltCast'} 可降低跳躍高度。<br>按下 {g:citadel_binding:'Mantle'} 可取消滑翔。"
 		"ability_power_jump_t2_desc"	"增加 <span class=\"highlight\">{s:WeaponDamageBonus}</span> 子彈傷害 以及減少移速<span class=\"highlight\">{s:SlowPercent}%</span> 持續{s:SlowDuration}秒"
 		"ability_power_jump_t3_desc"	"增加<span class=\"highlight\">+{s:TechLifestealPercent}%</span> 子彈吸血 <span class=\"highlight\">+{s:BulletLifestealPercent}%</span> 魂力吸血."
 		"modifier_citadel_archer_air_raid"			"強力跳躍"
@@ -1153,7 +1153,7 @@
 
 		"ability_guided_arrow"		"追魂獵鴞"
 		"ability_guided_arrow_quip"	"持續施法指引貓頭鷹從遠處攻擊敵人"
-		"ability_guided_arrow_desc"	"使用後施法 {s:AbilityCastDelay}s,發射一隻由你持續控制的<span class=\"highlight\">幽靈貓頭鷹</span> ，飛行 <span class=\"highlight\">撞擊到單位和地圖就會爆炸，造成傷害並且眩暈</span>。 按住 [{s:iv_attack}] 加速貓頭鷹。<br>按下 [{s:in_mantle}] 結束控制。擊殺可獲得<span class=\"highlight\">永久魂力加成</span>。"
+		"ability_guided_arrow_desc"	"使用後施法 {s:AbilityCastDelay}s，發射一隻由你持續控制的<span class=\"highlight\">幽靈貓頭鷹</span>，飛行<span class=\"highlight\">撞擊到單位和地圖就會爆炸，造成傷害並且眩暈</span>。按住 {g:citadel_binding:'MoveForward'} 加速貓頭鷹。<br>按下 {g:citadel_binding:'Mantle'} 結束控制。擊殺可獲得<span class=\"highlight\">永久魂力加成</span>。"
 		"ability_guided_arrow_t3_desc"	"命中後，殺死低於<span class=\"highlight\">{s:LowHealthEnemyThresholdPct}% 生命值</span>的敵人。"
 		"BonusTechPowerPerKill_label"		"每次擊殺魂力值"
 		
@@ -1170,7 +1170,7 @@
 
 		"ability_life_drain"				"吸魂巫術"
 		"ability_life_drain_quip"			"汲取敵人的生命值"
-		"ability_life_drain_desc"			"建立一條連結以<span class=\"highlight\">持續吸取敵人的生命值</span>並<span class=\"highlight\">治癒自己</span>。目標必須在視線範圍內且位於最大距離內才能進行吸取。吸取期間可以射擊或使用其他技能，但移動速度會減半。<br><span class=\"highlight\">[Alt-Cast] 對友方英雄進行生命恢復</span>。<br><span class=\"highlight\">按下 [{s:in_ability2}]</span> 以取消技能。" 
+		"ability_life_drain_desc"			"建立一條連結以<span class=\"highlight\">持續吸取敵人的生命值</span>並<span class=\"highlight\">治癒自己</span>。目標必須在視線範圍內且位於最大距離內才能進行吸取。吸取期間可以射擊或使用其他技能，但移動速度會減半。<br><span class=\"highlight\">[Alt-Cast] 對友方英雄進行生命恢復</span>。<br><span class=\"highlight\">按下 {g:citadel_binding:'AltCast'}</span> 以取消技能。" 
 		"ability_life_drain/modifier_life_drain" "生命吸取"
 		"ability_life_drain/modifier_life_drain_caster" "生命吸取"
 		"modifier_life_drain_silence"		"沉默"
@@ -1451,7 +1451,7 @@
 		//-----------------------------------------------------------------------------
 		"synth_plasma_flux"			"飛行斗篷"
 		"synth_plasma_flux_quip"		"施放可造成傷害性和傳送到位置的斗篷"
-		"synth_plasma_flux_desc"		"使用後釋放一件有生命的斗篷，<span class=\"highlight\">斗篷會向前移動並傷害敵人</span>。你可以按<span class=\"highlight\">[{s:in_ability2}] 來傳送到它所在的位置</span> 。"
+		"synth_plasma_flux_desc"		"使用後釋放一件有生命的斗篷，<span class=\"highlight\">斗篷會向前移動並傷害敵人</span>。你可以按<span class=\"highlight\">{g:citadel_binding:'Ability2'} 來傳送到它所在的位置</span> 。"
 		"synth_plasma_flux_t3_desc"	"傳送到斗篷位置時增加<span class=\"highlight\">+{s:WeaponDamageBonus} 子彈傷害</span> 持續 {s:WeaponDamageBonusDuration}秒</span>。"
 		"DPSDuration_label"			"傷害持續"
 		"DPSDuration_postfix"			"秒"
@@ -1692,7 +1692,7 @@
 		//-----------------------------------------------------------------------------
 		"citadel_ability_power_slash"		"蓄力斬"
 		"citadel_ability_power_slash_quip"	"蓄力斬擊，蓄力後可造成高傷害。"
-		"citadel_ability_power_slash_desc"	"使用後在 {s:AbilityCastDelay} 秒內蓄力增加傷害，然後向瞄準的位置釋放 <span class=\"highlight\"> 完全充能的斬擊</span>。<br>按下 [{s:in_ability1}] 或 [{s:iv_attack}] 提前觸發斬擊，造成部分傷害。"
+		"citadel_ability_power_slash_desc"	"使用後在 {s:AbilityCastDelay} 秒內蓄力增加傷害，然後向瞄準的位置釋放 <span class=\"highlight\">完全充能的斬擊</span>。<br>按下 {g:citadel_binding:'Ability1'} 或 {g:citadel_binding:'Attack'} 提前觸發斬擊，造成部分傷害。"
 		"power_slash_debuff"				"蓄力斬"
 		"SlashLength_label"					"斬擊長度"
 		"SlashWideRadius_label"				"Power Stance Slash Radius"
@@ -1764,7 +1764,7 @@
 		"PuddleDuration_postfix"						"秒"
 		
 		"viscous_restorative_goo"						"凝膠立方"
-		"viscous_restorative_goo_desc"					"選定一名友方英雄目標將目標包裹在一個<span class=\"highlight\">恢復生命的凝膠立方中，該凝膠立方可以清除減益狀態，保護目標免受傷害，並增加生命恢復速度</span>。目標在立方體中無法採取任何新行動。可用於自身。按下<span class=\"highlight\">[{s:in_mantle}]</span>可以提前脫離。"
+		"viscous_restorative_goo_desc"					"選定一名友方英雄目標將目標包裹在一個<span class=\"highlight\">恢復生命的凝膠立方中，該凝膠立方可以清除減益狀態，保護目標免受傷害，並增加生命恢復速度</span>。目標在立方體中無法採取任何新行動。可用於自身。按下<span class=\"highlight\">{g:citadel_binding:'Mantle'}</span>可以提前脫離。"
 		"viscous_restorative_goo_quip"					"凝膠立方是一個安全的地方"
 		"viscous_restorative_goo_t1_desc"				"獲得額外速度與生命恢復"
 		"viscous_restorative_goo_t3_desc"				"<span class=\"highlight\">移除所有減益效果</span>並<span class=\"highlight\">{s:AbilityCooldown}秒</span>技能冷卻時間"
@@ -2007,7 +2007,7 @@
         //-----------------------------------------------------------------------------
         
         "ability_magician_magicbolt" "煩擾箭"
-        "ability_magician_magicbolt_desc" "發射一支魔法箭，造成<span class=\"highlight_spirit\">魂力傷害</span>並施加<span class=\"highlight\">逐漸減速</span>。<br><br>按<span class=\"highlight\">[{s:in_ability1}]</span>將魔法箭<span class=\"highlight\">重定向</span>至你的準星方向。"
+        "ability_magician_magicbolt_desc" "發射一支魔法箭，造成<span class=\"highlight_spirit\">魂力傷害</span>並施加<span class=\"highlight\">逐漸減速</span>。<br><br>按<span class=\"highlight\">{g:citadel_binding:'Ability1'}</span>將魔法箭<span class=\"highlight\">重定向</span>至你的準星方向。"
         "ProjectileRedirectCount_label" "最大重定向次數"
         "ability_magician_magicbolt_t3_desc" "提升魔法箭速度並增加 +{s:Damage} 傷害"
         "ability_magician_magicbolt_quip" "發射一支可控制方向的魔法箭"
@@ -2020,7 +2020,7 @@
 
 
         "ability_magician_cloneturret" "靈幻助手"
-        "ability_magician_cloneturret_desc" "在目標位置召喚一名<span class=\"highlight\">助手</span>。助手會模仿你的攻擊，投擲造成<span class=\"highlight_spirit\">魂力傷害</span>的牌。<br><br>按下<span class=\"highlight\">[{s:in_ability2}]</span>與助手交換位置。"
+        "ability_magician_cloneturret_desc" "在目標位置召喚一名<span class=\"highlight\">助手</span>。助手會模仿你的攻擊，投擲造成<span class=\"highlight_spirit\">魂力傷害</span>的牌。<br><br>按下<span class=\"highlight\">{g:citadel_binding:'Ability2'}</span>與助手交換位置。"
         "ability_magician_cloneturret_t3_desc" "助手還會模仿煩擾箭。"
         "ability_magician_cloneturret_quip" "召喚你忠誠的助手"
         

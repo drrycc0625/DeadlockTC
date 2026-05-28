@@ -295,17 +295,17 @@
 		"Citadel_Hud_NotEnoughEnergy"								"沒有足夠充能"
 		"Citadel_Hud_DPS"											"DPS {i:dps}"
 		"Citadel_Hud_RespawnIn"										"復活時間:"
-		"Citadel_Hud_RideZipLine"									"按住[ {s:jump_key} ]使用"
-		"Citadel_Hud_CaptureZipLine"								"按住{s:use_key}"
+		"Citadel_Hud_RideZipLine"									"按住{g:citadel_binding:'Zipline'}使用"
+		"Citadel_Hud_CaptureZipLine"								"按住{g:citadel_binding:'HeldItem'}"
 		"Citadel_Hud_RideZipLineOnCooldownValue"					"{f:1:cooldown_seconds}s"
 		"Citadel_Hud_RideZipLineOnCooldown"							"受到傷害後不可用"
-		"Citadel_Hud_OpenShop"										"按下[ {s:upgrade_key} ]購買"
+		"Citadel_Hud_OpenShop"										"按下{g:citadel_binding:'OpenHeroSheet'}購買"
 		"Citadel_Hud_LoadingDeathReplay"							"載入死亡重播中"
 		"Citadel_Hud_DebugStats"									"MATCH: {s:match_id}\nCLIENT FPS:{i:client_framerate}   PING: {i:ping}ms\nSERVER CPU: {i:server_frametime_avg_pct}% (peak: {i:server_frametime_max_pct}%)"
 		"Citadel_Hud_DeathCam"										"死亡視角"
         "Citadel_Hud_CheaterVoteCaption"							"{s:cheater_name}"
         "Citadel_Hud_CheaterVoteAlert"								"你的比賽中有人被抓到作弊..."
-        "Citadel_Hud_CheaterVoteAlert_Action"						"按住 <span class=\"keybind\">[{s:show_scoreboard}]</span> 來決定他的命運"
+        "Citadel_Hud_CheaterVoteAlert_Action"						"按住 {g:citadel_binding:'Scoreboard'} 來決定他的命運"
         "Citadel_Hud_CheaterVote_Option_Play"						"現在變成青蛙，稍後禁賽"
         "Citadel_Hud_CheaterVote_Option_Ban"						"禁賽並離開比賽"
 
@@ -359,7 +359,7 @@
 
 
 		"Citadel_Shop_Purchased"									"已購買"
-		"Citadel_Shop_HoldAlt"										"按住alt <span class=\"keybind\">[{s:key_extra_info}]</span>"
+		"Citadel_Shop_HoldAlt"										"按住alt {g:citadel_binding:'Scoreboard'}"
 		"Citadel_Shop_ConditionalAttribute"							"根據條件觸發"
 		"Citadel_Shop_BonusAttribute"								"加成"
 		"Citadel_ShopFilter_Durabilty"								"耐久"
@@ -721,8 +721,8 @@
 
 		"Citadel_Roster_Instructions_Title"							"創造你的陣容"
 		"Citadel_Roster_Instructions_Desc"							"選擇至少三名英雄，比賽開始時你將會自動分配到其中一名。<br><br>你可以將英雄標記為<span class='selected'><b>“已選”</b></span>、<span class='priority'><b>“優先”</b></span>，或者<span class='high_priority'><b>“高優先”</b></span>，以提高分配到該英雄的機率。"
-		"Citadel_Roster_Instructions_Select"						"<span class='keybind'>{s:iv_attack}</span> 以將一名英雄標記為“已選擇”"
-		"Citadel_Roster_Instructions_Prefer"						"<span class='keybind'>{s:iv_attack2}</span> 以在<b>“優先”</b>與<b>“高優先”</b>之間切換"
+		"Citadel_Roster_Instructions_Select"						"{g:citadel_binding:'Attack'} 以將一名英雄標記為“已選擇”"
+		"Citadel_Roster_Instructions_Prefer"						"{g:citadel_binding:'ADS'} 以在<b>“優先”</b>與<b>“高優先”</b>之間切換"
 		
 		"Citadel_Roster_Instructions_Title_HeroLabs"              "英雄實驗室"
         "Citadel_Roster_Instructions_Desc_HeroLabs"               "排隊體驗或對抗新的實驗性英雄。<br><br>選擇至少三位英雄，其中<b>至少兩位必須是標準的、非測試的英雄。</b>根據玩家上次使用任何實驗性英雄的時間長短，他們將更有可能從名單中獲得一位實驗性英雄。"
@@ -773,7 +773,7 @@
 		"Citadel_PauseMsg_AutoUnpaused"								"遊戲自動恢復。"
 		"Citadel_PauseMsg_YouPaused"								"你暫停了遊戲，還剩下 {i:value} 次暫停機會。"
 		"Citadel_PauseMsg_CantUnpauseTeam"							"你還不能恢復這支隊伍的比賽。"
-		"Citadel_PauseMsg_UnpauseButton"							"按下 [{s:key_pause}] 取消暫停"
+		"Citadel_PauseMsg_UnpauseButton"							"按下 {g:citadel_binding:'Pause'} 取消暫停"
 
 		"Citadel_Hud_MovementSpeed"									"移動速度："
 		"Citadel_Hud_ApPointsButton"								"<span class=\'apPointsNumber\'>{i:ap_points_required}</span>"
@@ -795,7 +795,7 @@
 		"Citadel_HUD_IdolPickedUp"									"魂甕已撿起!"
 		"Citadel_HUD_IdolReturned"									"已送達魂甕!"
 		"Citadel_HUD_DamageSummary_Title"							"傷害 <i>來源</i>"
-		"Citadel_HUD_DamageSummary_Hint"							"按住 <span class=\"keybind\">[{s:key_extra_info}]</span> 來查看詳情"
+		"Citadel_HUD_DamageSummary_Hint"							"按住 {g:citadel_binding:'Scoreboard'} 來查看詳情"
 		
 		"Citadel_HUD_NextReward_PowerIncrease"						"屬性提升"
         "Citadel_HUD_TotalPowerIncreasesLabel"						"總計屬性提升"
@@ -879,12 +879,12 @@
 		"Citadel_Hud_TopbarPlayerNetworthPlayerHigh"					"{i:thousands_gold}<span class=\"demote\">k</span>"
 		"Citadel_Hud_TopbarPlayerNetworth"								"{i:thousands_gold}<span class=\"demote\">k</span>"
 
-		"Citadel_HUD_AbilityUnlockAvailable"						"按住 <span class=\"keybind\">[{s:key_extra_info}]</span> 來解鎖技能"
-		"Citadel_HUD_AbilityUpgradeAvailable"						"按住 <span class=\"keybind\">[{s:key_extra_info}]</span> 來升級技能"
+		"Citadel_HUD_AbilityUnlockAvailable"						"按住 {g:citadel_binding:'Scoreboard'} 來解鎖技能"
+		"Citadel_HUD_AbilityUpgradeAvailable"						"按住 {g:citadel_binding:'Scoreboard'} 來升級技能"
 		"Citadel_HUD_AbilityUnlock_Button"							"解鎖"
 
 
-		"Citadel_HUD_JoinTeamChat_Dialog"							"按住 <span class=\"keybind\">[{s:key_voice_record}]</span> 開啟團隊語音"
+		"Citadel_HUD_JoinTeamChat_Dialog"							"按住 {g:citadel_binding:'PushToTalk'} 開啟團隊語音"
 		
 		
 		"Citadel_HUD_Damage_TooFar"									"太遠了"
@@ -1602,8 +1602,8 @@
 		"CitadelShop_SearchExampleLine3"		"特性: <b>物理抗性</b>"
 		"CitadelShop_SearchExampleAlt"			"嘗試按模組<span class=\"highlight\">名稱或彈藥</span>、<span class=\"highlight_spirit\">生命值或魂力</span>等效果搜索。"
 
-		"Citadel_Dead_ShopReminder"				"購買 & 升級"
-		"Citadel_Dead_ReplayDeath"				"重播死亡鏡頭"
+		"Citadel_Dead_ShopReminder"				"{g:citadel_binding:'OpenHeroSheet'}購買 & 升級"
+		"Citadel_Dead_ReplayDeath"				"{g:citadel_binding:'ReplayDeath'}重播死亡鏡頭"
 
 
 		//-----------------------------------------------------------------------------
@@ -1647,8 +1647,8 @@
 		"modifier_citadel_respawn_credit" 						"復生晶石"
 
 
-		"modifier_hint_vertical_movement"				"按下 {s:in_mantle} 取消。{s:in_innate1}/{s:duck} 向上/下移動"
-		"modifier_hint_can_cancel"				"按下 {s:in_mantle} 取消"
+		"modifier_hint_vertical_movement"				"按下 {g:citadel_binding:'Mantle'} 取消。{g:citadel_binding:'Roll'}/{g:citadel_binding:'Crouch'} 向上/下移動"
+		"modifier_hint_can_cancel"				"按下 {g:citadel_binding:'Mantle'} 取消"
 		"modifier_citadel_dps_tracker"			"DPS"
 		"modifier_citadel_accuracy_tracker"		"準確度"
 
@@ -1710,24 +1710,24 @@
 		"citadel_ability_sprint" ""
 		"citadel_ability_action" ""
 
-		"citadel_hint_zoom"			"按住 <span class=\"hintTextEmphasis\">[{s:iv_attack2}]</span> 瞄準。"
-		"citadel_hint_slide"		"在斜坡上移動時 <span class=\"hintTextEmphasis\">[{s:duck}]</span> 來滑鏟。"
-		"citadel_hint_zipline"		"按住 <span class=\"hintTextEmphasis\">[{s:in_mantle}]</span> 跳上移動滑索。"
-		"citadel_hint_mantle"		"按住 <span class=\"hintTextEmphasis\">[{s:in_mantle}]</span> 越過障礙物。"
-		"citadel_hint_ladder"		"按 <span class=\"hintTextEmphasis\">[{s:in_mantle}]</span>+<span class=\"hintTextEmphasis\">[{s:key_forward}]</span> 跳上梯子。"
+		"citadel_hint_zoom"			"按住 {g:citadel_binding:'ADS'} 瞄準。"
+		"citadel_hint_slide"		"在斜坡上移動時 {g:citadel_binding:'Crouch'} 來滑鏟。"
+		"citadel_hint_zipline"		"按住 {g:citadel_binding:'Zipline'} 跳上移動滑索。"
+		"citadel_hint_mantle"		"按住 {g:citadel_binding:'Mantle'} 越過障礙物。"
+		"citadel_hint_ladder"		"按 {g:citadel_binding:'Mantle'}+{g:citadel_binding:'MoveForward'} 跳上梯子。"
 		"citadel_hint_buy_items"		"回到基地或商店來購買 <span class=\"hintTextEmphasis\">模組</span>"
-		"citadel_hint_melee"		"按下 <span class=\"hintTextEmphasis\">[{s:in_weapon1}]</span> 進行近戰攻擊。"
-		"citadel_hint_learn_initial_ability"	"按住 <span class=\"hintTextEmphasis\">[{s:key_extra_info}]</span> 選擇要解鎖的技能。"
-		"citadel_hint_learn_ability"	"按住要學習的技能的按鍵 <span class=\"hintTextEmphasis\">key 1-4</span> 來進行學習。"
-		"citadel_hint_upgrade_ability"	"按住 <span class=\"hintTextEmphasis\">[{s:key_extra_info}]</span> 升級你的技能。"
-		"citadel_hint_hero_testing_shop"	"Press <span class=\"hintTextEmphasis\">[{s:citadel_open_hero_sheet}]</span> to open up the shop and set test options。"
+		"citadel_hint_melee"		"按下 {g:citadel_binding:'AbilityMelee'} 進行近戰攻擊。"
+		"citadel_hint_learn_initial_ability"	"按住 {g:citadel_binding:'Scoreboard'} 選擇要解鎖的技能。"
+		"citadel_hint_learn_ability"	"按住技能 {g:citadel_binding:'Ability1'}、{g:citadel_binding:'Ability2'}、{g:citadel_binding:'Ability3'} 或 {g:citadel_binding:'Ability4'} 來學習該技能。"
+		"citadel_hint_upgrade_ability"	"按住 {g:citadel_binding:'Scoreboard'} 升級你的技能。"
+		"citadel_hint_hero_testing_shop"	"Press {g:citadel_binding:'OpenHeroSheet'} to open up the shop and set test options。"
 		"citadel_hint_teleport"				"Your Tier2 boss is under attack, press <span class=\"hintTextEmphasis\">[{s:key_teleport}]</span> to teleport to help!"
 		
 		// Ability Hints
-		"citadel_hint_flamedash_boost" "按下 <span class=\"hintTextEmphasis\">[{s:key_innate_1}]</span>進行衝刺。需要消耗體力。"
-		"citadel_hint_activate_wall" "按下 <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span>提前產生牆壁。"
-		"citadel_hint_guided_arrow_boost" "按住 <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> 提高箭矢速度。"
-		"citadel_hint_flying_strike_early_activate" "按下 <span class=\"hintTextEmphasis\">[{s:iv_attack}]</span> 來更快飛向目標。"
+		"citadel_hint_flamedash_boost" "按下 {g:citadel_binding:'Roll'}進行衝刺。需要消耗體力。"
+		"citadel_hint_activate_wall" "按下 {g:citadel_binding:'Attack'}提前產生牆壁。"
+		"citadel_hint_guided_arrow_boost" "按住 {g:citadel_binding:'Attack'} 提高箭矢速度。"
+		"citadel_hint_flying_strike_early_activate" "按下 {g:citadel_binding:'Attack'} 來更快飛向目標。"
 
 		//-----------------------------------------------------------------------------
 		// Breakble Prop modifiers
@@ -1789,7 +1789,7 @@
 
 		"citadel_east_team_name"						"琥珀"
 		"citadel_west_team_name"						"藍晶"
-        "citadel_ability_upgrade_tab_desc"				"{s:show_scoreboard}+[技能鍵] 將升級你的技能。這些是額外的按鍵綁定。"
+        "citadel_ability_upgrade_tab_desc"				"{g:citadel_binding:'Scoreboard'} + [{g:citadel_binding:'Ability1'}/{g:citadel_binding:'Ability2'}/{g:citadel_binding:'Ability3'}/{g:citadel_binding:'Ability4'}] 將升級你的技能。這些是額外的按鍵綁定。"
         "citadel_settings_per_unit_hotkeys"				"單位專用快捷鍵"
         "citadel_Hotkeys_Tooltip_PerUnitHotkeys"		"啟用/禁用單位專用按鍵綁定"
         "citadel_settings_defaultkeybinds"				"預設"
@@ -2150,7 +2150,7 @@
 		"citadel_mute_game_audio"						"靜音遊戲"
 		"citadel_unmute_game_audio"						"遊戲聲音打開"
 		"citadel_game_audio_muted"						"遊戲已靜音"
-		"citadel_game_audio_press_unmute"				"按住 [{s:key_toggle_mute}]解除靜音"
+		"citadel_game_audio_press_unmute"				"按住 {g:citadel_binding:'ToggleMute'}解除靜音"
 
 		// Names for key binds. Only need to add unique binds.
 		"ExtraInfo"										"額外資訊"
@@ -2216,7 +2216,7 @@
 		"guide_upgrades_deny_desc"					"敵方的魂靈球是橙色的，如果它們飄走或者被射擊，敵人就會得到它們。<br><br>你搶先可以先射擊這些橙色球體來竊取它們。"
 
 		"guide_upgrades_killing_guardians_header"	"技能點"
-		"guide_upgrades_killing_guardians_desc"		"摧毀敵人的防禦單位可為團隊中的每個人賺取技能點數（AP）。<br><br>你可以通過按住<span class='keybind'>[TAB]</span>來升級技能。"
+		"guide_upgrades_killing_guardians_desc"		"摧毀敵人的防禦單位可為團隊中的每個人賺取技能點數（AP）。<br><br>你可以通過按住 {g:citadel_binding:'Scoreboard'} 來升級技能。"
 
 		"guide_upgrades_going_home_header"			"商店"
 		"guide_upgrades_going_home_desc"			"當你有魂靈可以使用時，請回到基地購物和治療。購買強大的模組，這些模組可以增加你的屬性並賦予你額外的能力。<br><br>每個守護者旁邊都有一個商店，如果該商店周圍的守護神被摧毀，那麼商店也會被關閉。"
@@ -2231,49 +2231,49 @@
 		"guide_neutrals_desc"						"地圖上潛伏著許多中立魔物。打敗它們就能獲得魂靈。<br><br>有時，地圖中心會出現一個強大的生物......擊敗它將為你的團隊帶來強大的力量。"
 
 		"guide_movement_jump_header"				"跳躍"
-		"guide_movement_jump_desc"					"按 <span class='keybind'>[ {s:in_mantle} ]</span> 進行跳躍。"
+		"guide_movement_jump_desc"					"按 {g:citadel_binding:'Mantle'} 進行跳躍。"
 
 		"guide_movement_crouch_header"				"蹲下"
-		"guide_movement_crouch_desc"				"按 <span class='keybind'>[ {s:key_duck} ]</span> 進行蹲下。"
+		"guide_movement_crouch_desc"				"按 {g:citadel_binding:'Crouch'} 進行蹲下。"
 
 		"guide_movement_slide_header"				"滑鏟"
-		"guide_movement_slide_desc"					"在下坡或高速移動時按住 <span class='keybind'>[ {s:key_duck} ]</span> 進行滑鏟。"
+		"guide_movement_slide_desc"					"在下坡或高速移動時按住 {g:citadel_binding:'Crouch'} 進行滑鏟。"
 
 		"guide_movement_dodge_header"				"衝刺"
-		"guide_movement_dodge_desc"					"移動時按 <span class='keybind'>[ {s:key_innate_1} ]</span> 進行衝刺。<br><br>需要消耗體力"
+		"guide_movement_dodge_desc"					"移動時按 {g:citadel_binding:'Roll'} 進行衝刺。<br><br>需要消耗體力"
 
 		"guide_movement_zipline_header"				"移動滑索"
-		"guide_movement_zipline_desc"				"按住 <span class='keybind'>[ {s:in_mantle} ]</span> 掛上滑索。<br><br>你可以按 <span class='keybind'>[ {s:in_mantle} ]</span>跳下來。"
+		"guide_movement_zipline_desc"				"按住 {g:citadel_binding:'Zipline'} 掛上滑索。<br><br>你可以按 {g:citadel_binding:'Mantle'}跳下來。"
 
 		"guide_movement_mantle_header"				"攀爬"
-		"guide_movement_mantle_desc"				"靠近邊緣時按住<span class='keybind'>[ {s:in_mantle} ]</span> 進行攀爬。"
+		"guide_movement_mantle_desc"				"靠近邊緣時按住{g:citadel_binding:'Mantle'} 進行攀爬。"
 
 		"guide_movement_double_jump_header"			"二段跳"
-		"guide_movement_double_jump_desc"			"在跳躍時按 <span class='keybind'>[ {s:in_mantle} ]</span> 進行二段跳。<br><br>特殊動作如二段跳會消耗你的體力條，體力條位於你的準星旁邊。"
+		"guide_movement_double_jump_desc"			"在跳躍時按 {g:citadel_binding:'Mantle'} 進行二段跳。<br><br>特殊動作如二段跳會消耗你的體力條，體力條位於你的準星旁邊。"
 
 		"guide_movement_airdash_header"				"空中衝刺"
-		"guide_movement_airdash_desc"				"在空中按下衝刺按鍵進行空中衝刺。<br><br>需要消耗體力。"
+		"guide_movement_airdash_desc"				"在空中按下 {g:citadel_binding:'Roll'} 進行空中衝刺。<br><br>需要消耗體力。"
 
 		"guide_movement_dodge_jump_header"			"衝刺跳躍"
 		"guide_movement_dodge_jump_desc"			"衝刺時按下跳躍以進行衝刺跳躍。<br><br>需要消耗體力。"
 
 		"guide_basics_shoot_header"					"射擊"
-		"guide_basics_shoot_desc"					"按 <span class='keybind'>[ {s:iv_attack} ]</span> 進行射擊。<br><br>槍械傷害會隨著距離邊遠而下降"
+		"guide_basics_shoot_desc"					"按 {g:citadel_binding:'Attack'} 進行射擊。<br><br>槍械傷害會隨著距離邊遠而下降"
 
 		"guide_basics_aim_header"					"放大"
-		"guide_basics_aim_desc"						"按住 <span class='keybind'>[ {s:iv_attack2} ]</span> 來放大射擊視野"
+		"guide_basics_aim_desc"						"按住 {g:citadel_binding:'ADS'} 來放大射擊視野"
 
 		"guide_basics_melee_header"					"近戰"
-		"guide_basics_melee_desc"					"按下 <span class='keybind'>[ {s:key_weapon_1} ]</span> 進行快速近戰攻擊。按住 <span class='keybind'>[ {s:key_weapon_1} ]</span> 進行強力蓄力近戰攻擊。"
+		"guide_basics_melee_desc"					"按下 {g:citadel_binding:'AbilityMelee'} 進行快速近戰攻擊。按住 {g:citadel_binding:'AbilityMelee'} 進行強力蓄力近戰攻擊。"
 
 		"guide_basics_reload_header"				"換彈"
-		"guide_basics_reload_desc"					"按 <span class='keybind'>[ {s:key_reload} ]</span> 來裝填武器。某些動作如近戰會暫停裝填。"
+		"guide_basics_reload_desc"					"按 {g:citadel_binding:'Reload'} 來裝填武器。某些動作如近戰會暫停裝填。"
 
 		"guide_advanced_parry_header"				"格擋"
-		"guide_advanced_parry_desc"					"按 <span class='keybind'>[ {s:key_parry} ]</span> 來格擋敵人的近戰攻擊。<br><br>敵人會被眩暈並增加其受到的近戰傷害。"
+		"guide_advanced_parry_desc"					"按 {g:citadel_binding:'HeldItem'} 來格擋敵人的近戰攻擊。<br><br>敵人會被眩暈並增加其受到的近戰傷害。"
 
 		"guide_basics_abilities_header"				"技能"
-		"guide_basics_abilities_desc"				"按 <span class='keybind'>[ {s:in_ability1}, {s:in_ability2}, {s:in_ability3}, {s:in_ability4} ]</span> 來使用你英雄的技能。"
+		"guide_basics_abilities_desc"				"按 <span class='keybind'>[ {g:citadel_binding:'Ability1'}, {g:citadel_binding:'Ability2'}, {g:citadel_binding:'Ability3'}, {g:citadel_binding:'Ability4'} ]</span> 來使用你英雄的技能。"
 
 		"guide_back_to_dashboard"					"返回主界面"
 
@@ -2286,14 +2286,14 @@
 		"citadel_spectator_voice_mode_1"	"玩家語音關閉"
 		"hud_free_cursor_mode_0"				"啟用游標"
 		"hud_free_cursor_mode_1"				"啟用視角控制"
-		"hud_prev_player"					"上一個玩家"
-		"hud_next_player"					"下一個玩家"
+		"hud_prev_player"					"{g:citadel_binding:'Spectator.SpectatorPrevTarget'}上一個玩家"
+		"hud_next_player"					"{g:citadel_binding:'Spectator.SpectatorNextTarget'}下一個玩家"
 		"hud_spectating"					"正在觀戰"
-		"hud_change_camera"					"更換視角"
+		"hud_change_camera"					"{g:citadel_binding:'Spectator.ToggleSpectatorCamera'}更換視角"
         "hud_spectate_next_prev"			"下一個 / 前一個"
-        "hud_spectate_fly_down"				"往上升"
-        "hud_spectate_fly_up"				"往下降"
-        "hud_spectate_change_team"			"更換隊伍"
+        "hud_spectate_fly_down"				"{g:citadel_binding:'Spectator.SpectatorFlyDown'}往下飛"
+        "hud_spectate_fly_up"				"{g:citadel_binding:'Spectator.SpectatorFlyUp'}往上飛"
+        "hud_spectate_change_team"			"{g:citadel_binding:'Spectator.ToggleSpectatorTeam'}更換隊伍"
         "hud_spectate_count"				"{d:spectatorCount} 觀戰者"
 
 
@@ -2562,7 +2562,7 @@
 		"HeroTesting_OrbsSecured"					"獲得寶珠: {i:orbsSecured}"
 		"HeroTesting_OrbsDenied"					"反補: {i:orbsDenied}"
 		"HeroTesting_TestTools"						"測試工具"
-		"HeroTesting_HoldAlt"						"按住 Tab"
+		"HeroTesting_HoldAlt"						"按住 {g:citadel_binding:'Scoreboard'}"
 		"HeroTesting_LaneChallenge"					"對線挑戰"
 		"HeroTesting_HeroTools"						"測試工具"
 		"HeroTesting_ChangeHero"					"更換英雄"
@@ -2630,7 +2630,7 @@
 		"ReportCard_ModsPurchased_Progress"			"<span class=\"yourscore\">{i:modsPurchased}</span> / {i:modsPurchasedNextGoal}"
 
 		"ReportCard_AbilitiesUpgraded"				"升級技能"
-		"ReportCard_AbilitiesUpgraded_Desc"			"通過按住 [{s:key_extra_info}]來升級技能"
+		"ReportCard_AbilitiesUpgraded_Desc"			"通過按住 {g:citadel_binding:'Scoreboard'}來升級技能"
 		"ReportCard_AbilitiesUpgraded_Progress"		"<span class=\"yourscore\">{i:abilitiesUpgraded}</span> / {i:abilitiesUpgradedNextGoal}"
 
 		"ReportCard_GuardianDamage"					"守護者傷害"
@@ -2701,19 +2701,19 @@
 		"Sandbox_Tutorial_Step_6"					"第 6 步（共 6 步）"
 
 		"Sandbox_Tutorial_Unlock_Abilities"			"解鎖你的技能"
-		"Sandbox_Tutorial_Unlock_Abilities_desc"	"按住 [<span class='keybind'>{s:key_extra_info}</span>] 鍵來解鎖新的技能。"
+		"Sandbox_Tutorial_Unlock_Abilities_desc"	"按住 [{g:citadel_binding:'Default.Scoreboard'}] 鍵來解鎖新的技能。"
 
 		"Sandbox_Tutorial_Abilities"				"試試你的技能"
 		"Sandbox_Tutorial_Abilities_desc"			"通過按下 [<span class='keybind'>{s:in_ability1}</span>], [<span class='keybind'>{s:in_ability2}</span>], [<span class='keybind'>{s:in_ability3}</span>] 或 [<span class='keybind'>{s:in_ability4}</span>]來使用你的技能。"
 
 		"Sandbox_Tutorial_Upgrades"					"升級你的技能"
-		"Sandbox_Tutorial_Upgrades_desc"			"按住 [<span class='keybind'>{s:key_extra_info}</span>] 鍵來花費技能點來升級你的技能。"
+		"Sandbox_Tutorial_Upgrades_desc"			"按住 [{g:citadel_binding:'Default.Scoreboard'}] 鍵來花費技能點來升級你的技能。"
 
 		"Sandbox_Tutorial_Zipline"					"掛上移動滑索"
-		"Sandbox_Tutorial_Zipline_desc"				"按住<span class='keybind'>{s:in_mantle}</span> 鍵來掛上移動滑索。你可以通過按下 <span class='keybind'>{s:in_mantle}</span>鍵跳下來。"
+		"Sandbox_Tutorial_Zipline_desc"				"按住 {g:citadel_binding:'Default.Mantle'} 來掛上移動滑索。你可以再按一次 {g:citadel_binding:'Default.Mantle'} 跳下來。"
 
 		"Sandbox_Tutorial_Mods"						"為你的英雄購買模組"
-		"Sandbox_Tutorial_Mods_desc"				"前往商店瀏覽模組。嘗試購買一些模組。"
+		"Sandbox_Tutorial_Mods_desc"				"奇物商店的道具能大幅強化你的英雄。<br/><br/>移動到商店範圍內並按下 {g:citadel_binding:'OpenHeroSheet'}。"
 
 		"Sandbox_Tutorial_Completed"				"已完成沙盒模式教學"
 		"Sandbox_Tutorial_Completed_desc"			"請自由的在這裡遊玩. 如果你準備好了就可以退出沙盒模式開始對線訓練。"
@@ -2759,7 +2759,7 @@
 		"AbilityButtonHint_HatTrickFire"			"射擊"
 		"AbilityButtonHint_HatTrickCancel"			"返回"
 		"AbilityButtonHint_MeleeRejuvinator"		"近戰重擊來擊碎復生晶石"
-         "AbilityButtonHint_ClimbRope"				"按住爬繩"
+         "AbilityButtonHint_ClimbRope"				"按住 {g:citadel_binding:'Zipline'} 攀爬繩索"
 		
 
 		"AbilityButtonHint_HoldToAltVoidSphere"			"按住給予隊友"
