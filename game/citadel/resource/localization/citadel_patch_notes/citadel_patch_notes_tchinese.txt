@@ -1,0 +1,207 @@
+﻿"lang"
+{
+	"Language"		"tchinese"
+	"Tokens"
+	{
+		// === 銀月補翻 (2026-05-28) for citadel_patch_notes ===
+		"Citadel_PatchNotes_HeroLabs_hero_astro_1"		"<b>10/24/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_2"		"<b>10/29/2024</b><br>
+			<li><i>Bounce Pad</i>：現在能在落地時正確對周圍區域造成傷害</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_astro_3"		"<b>11/07/2024</b><br>
+			<li><i>Bounce Pad</i>：更新為每個Bounce Pad僅允許一次踩踏</li>
+			<li><i>Bounce Pad</i>：友軍踏上Bounce Pad時不再產生粒子特效</li>
+			<li><i>Gun</i>：更新了武器套件的視覺特效</li>
+			<li><i>Powder Keg</i>：減少近距離時視覺特效的視野遮擋</li>
+			<li><i>Crackshot</i>：減少受擊者視覺特效的視野遮擋</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_1"		"<b>10/24/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_nano_2"		"<b>10/29/2024</b><br>
+			<li><i>Gun</i>：裝填時間從3.5降低至3</li>
+			<li><i>Gun</i>：彈匣容量從18降低至16</li>
+			<li><i>Gun</i>：副射擊子彈傷害從6提升至7</li>
+			<li><i>Sekhmet's Spirit</i>：現在可以在施放後立即引爆</li>
+			<li><i>Sekhmet's Spirit</i>：現在只會將被移動中的貓擊中/拖拽的目標浮空</li>
+			<li><i>Nekomata Ward</i>：不再具有充能</li>
+			<li><i>Nekomata Ward</i>：現在具有獨立的30m「攻擊範圍」</li>
+			<li><i>Nekomata Ward</i>：持續時間從120降低至60</li>
+			<li><i>Nekomata Ward</i>：DPS魂能加成從0.4降低至0.3</li>
+			<li><i>Nekomata Ward</i>：生命值魂能加成從3.0降低至2.0</li>
+			<li><i>Nekomata Ward</i>：移除T2技能充能加成，新增+30技能持續時間加成</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_1"		"<b>10/24/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_2"		"<b>11/07/2024</b><br>
+			<li><i>Gun</i>：彈匣容量從10提升至15</li>
+			<li><i>Gun</i>：每秒子彈數從2.86提升至4</li>
+			<li><i>Gun</i>：子彈傷害從25降低至21</li>
+			<li><i>Wrecking Ball</i>：現在撞擊時會爆炸</li>
+			<li><i>Wrecking Ball</i>：基礎傷害從80提升至150</li>
+			<li><i>Wrecking Ball</i>：巨石速度從1500提升至2000</li>
+			<li><i>Wrecking Ball</i>：巨石衝擊力從280提升至1500</li>
+			<li><i>Wrecking Ball</i>：巨石施放時間從1.2s提升至1.4s</li>
+			<li><i>Wrecking Ball</i>：魂能加成從1.0提升至1.4</li>
+			<li><i>Wrecking Ball</i>：基礎冷卻從21s提升至31s</li>
+			<li><i>Consume</i>：更新技能，現在可對所有敵人使用</li>
+			<li><i>Consume</i>：不再對目標造成眩暈或使其浮空</li>
+			<li><i>Consume</i>：基礎DPS從80降低至40</li>
+			<li><i>Consume</i>：T1升級改為提供等同於傷害量75%的治療</li>
+			<li><i>Consume</i>：T2升級從+80 DPS降低至+40 DPS</li>
+			<li><i>Consume</i>：T3升級改為增加+2個額外目標</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_3"		"<b>11/21/2024</b><br>
+			<li><i>Wrecking Ball</i>：現在持球時可以以較低高度跳躍</li>
+			<li><i>Wrecking Ball</i>：觸發半徑從92降低至65</li>
+			<li><i>Consume</i>：新的視覺效果更新</li>
+			<li><i>Consume</i>：基礎DPS從40提升至60</li>
+			<li><i>Consume</i>：施放範圍從12m提升至15m</li>
+			<li><i>Consume</i>：現在最大範圍為20m</li>
+			<li><i>Consume</i>：現在需要維持視線(LOS)才能持續附著</li>
+			<li><i>Consume</i>：不再中斷敵人移動</li>
+			<li><i>Consume</i>：移除射速增益</li>
+			<li><i>Consume</i>：新增50%基礎治療百分比</li>
+			<li><i>Consume</i>：T1升級治療百分比從+75%降低至+25%</li>
+			<li><i>Bio Blast</i>：範圍從5m提升至10m</li>
+			<li><i>Bio Blast</i>：略微更新瞄準錐體</li>
+			<li><i>Bio Blast</i>：移除施放時的螢幕變暗效果</li>
+			<li><i>Astral Walk</i>：已移除，更新為新終極技能<i>Overload</i></li>
+			<li><i>Overload</i>：新的視覺效果更新</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_wrecker_4"		"<b>12/06/2024</b><br>
+			<li><i>Wrecking Ball</i>：重做技能行為</li>
+			<li><i>Wrecking Ball</i>：新的視覺效果更新</li>
+			<li><i>Overload</i>：增加鏡頭拉遠距離</li>
+			<li><i>Overload</i>：T2升級改為縮短冷卻35秒</li>
+			<li><i>Overload</i>：說明文字與UI中現在包含移動速度緩速</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_1"		"<b>11/07/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_2"		"<b>11/08/2024</b><br>
+			<li><i>Silktrap:</i> 修復絲線效果有時會變得不可見的問題。</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_3"		"<b>11/21/2024</b><br>
+			<li><i>Bottled Phantasmicide:</i> 初始半徑從5m降低至3m</li>
+			<li><i>Bottled Phantasmicide:</i> 持續時間從9s降低至8s</li>
+			<li><i>Bottled Phantasmicide:</i> 基礎冷卻從20s提升至25s</li>
+			<li><i>Bottled Phantasmicide:</i> T1升級改為對毒霧中的目標造成-20%魂能傷害</li>
+			<li><i>Bottled Phantasmicide:</i> T2升級改為+4持續時間</li>
+			<li><i>Silktrap:</i> 現在可以對小兵和部隊兵施放</li>
+			<li><i>Silktrap:</i> 修復了陷阱會對牆另一側造成傷害的問題</li>
+			<li><i>Silktrap:</i> 修復了陷阱有時無法生成的問題</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_4"		"<b>11/24/2024</b><br>
+			<li><i>Bottled Phantasmicide:</i> 成長計算改為每秒固定半徑增量，並依技能範圍縮放</li>
+			<li><i>Silktrap:</i> 改善預覽視覺效果</li>
+			<li><i>Silktrap:</i> 修復了陷阱有時無法生成的問題</li>
+			<li><i>Silktrap:</i> 現在有最低陷阱長度要求</li>
+			<li><i>Silktrap:</i> T3升級現在施加沉默2.5s，而非繳械4s</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_5"		"<b>12/06/2024</b><br>
+			<li><i>Bottled Phantasmicide:</i> 初始半徑從3m提升至4.5m</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_trapper_6"		"<b>2/20/2025</b><br>
+			<li><i>Bottled Phantasmicide:</i> 初始半徑從4.5m提升至6m</li>
+			<li><i>Bottled Phantasmicide:</i> 不再造成傷害，但會對區域內所有敵人施加沉默</li>
+			<li><i>Bottled Phantasmicide:</i> 冷卻從25s提升至30s</li>
+			<li><i>Bottled Phantasmicide:</i> T3升級現在會削減魂能抗性25%</li>
+			<li><i>Bottled Phantasmicide:</i> 更新魂能加成以提升緩速效果</li>
+			<li><i>Silktrap:</i> 現在會持續造成傷害</li>
+			<li><i>Silktrap:</i> 現在會顯形被絲網擊中的敵人</li>
+			<li><i>Silktrap:</i> 初始持續時間從60s提升至120s</li>
+			<li><i>Silktrap:</i> 減益持續時間從2s提升至3s</li>
+			<li><i>Silktrap:</i> T3升級同時使減益持續時間增加2s</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_1"		"<b>10/24/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_2"		"<b>10/29/2024</b><br>
+			<li><i>Gun</i>：每顆彈丸傷害從5降低至4.5</li>
+			<li><i>Gun</i>：彈丸擴散增加，衰減起始範圍從20m降低至18m</li>
+			<li><i>Scalding Spray</i>：更新粒子效果使其不遮擋Fathom的視野，並新增命中特效</li>
+			<li><i>Breach</i>：現在可以在Breach動作期間使用其他技能</li>
+			<li><i>Breach</i>：更新粒子特效</li>
+			<li><i>Reefdweller Harpoon</i>：現在附著於牆上時可執行任何動作，並會立即取消附著狀態</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_3"		"<b>11/1/2024</b><br>
+			<li>每個恩惠的生命值從41降低至36</li>
+			<li>霰彈槍每顆彈丸傷害從4.5降低至4</li>
+			<li>霰彈槍衰減起始距離從18m降低至16m</li>
+			<li>Scalding Spray每秒武器傷害增益從8%降低至7%</li>
+			<li>Fathom的Bloodletting更新為與最新版本Shiv的Bloodletting數值相同</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_4"		"<b>11/8/2024</b><br>
+			<li><b>新技能</b>：<i>Lurker's Ambush</i></li>
+			<li><i>Fathom's Bloodletting</i>被<i>Reefdweller Harpoon</i>取代</li>
+			<li><i>Reefdweller Harpoon</i>：附著於表面後獲得2次充能</li>
+			<li><i>Reefdweller Harpoon</i>：不再能夠施放至地面上</li>
+			<li><i>Reefdweller Harpoon</i>：當目標表面過遠時將阻止施放</li>
+			<li><i>Reefdweller Harpoon</i>：施放時不會打破隱身狀態</li>
+			<li><i>Reefdweller Harpoon</i>：施放時觸發Lurker's Ambush的隱身效果</li>
+			<li><i>Reefdweller Harpoon</i>：現在在脫離表面時開始計算冷卻</li>
+			<li><i>Reefdweller Harpoon</i>：不再具有被動回復</li>
+			<li><i>Reefdweller Harpoon</i>：不再具有被動隱身</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_5"		"<b>11/21/2024</b><br>
+			<li><i>Weapon</i>：每個恩惠的子彈傷害從0.57降低至0.35</li>
+			<li><i>Lurker's Ambush</i>：更新粒子特效</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_6"		"<b>12/6/2024</b><br>
+			<li><i>Scalding Spray</i>：更新粒子特效</li>
+			<li><i>Lurker's Ambush</i>：為被定身的敵人新增水中螢幕特效</li>
+			<li><i>Lurker's Ambush</i>：主動技能投射物現在具有2.5m半徑</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_slork_7"		"<b>12/17/2024</b><br>
+			<li>新增預設道具出裝</li>
+			<li>更新並改進所有技能的音效</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_1"		"<b>10/24/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_2"		"<b>10/29/2024</b><br>
+			<li><i>Hook Dagger</i>已被<i>Screwjab Dagger</i>取代</li>
+			<li><i>Lethal Venom</i>：現在只能以敵方英雄為目標</li>
+			<li><i>Lethal Venom</i>：改善視覺特效</li>
+			<li><i>Slither</i>：現在預設在1級時解鎖</li>
+			<li><i>Slither</i>：T1升級改為+25%滑行距離，T2改為+2耐力，T3改為+30%子彈/魂能抗性</li>
+			<li><i>Petrify</i>：引爆延遲從0.6s提升至1.0s</li>
+			<li><i>Petrify</i>：改善石化狀態下的視覺特效、音效和鏡頭控制</li>
+			<li><i>Petrify</i>：阻擋量現在依魂能強度縮放</li>
+			<li><i>Petrify</i>：不再能夠在空中施放</li>
+			<li><i>Petrify</i>：現在能被Unstoppable正確免疫</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_3"		"<b>11/21/2024</b><br>
+			<li><i>Petrify</i>已被<i>Petrifying Bola</i>取代</li>
+			<li><i>Petrifying Bola</i>：修改投射物視覺效果</li>
+			<li><i>Screwjab Dagger</i>：不再中斷滑行</li>
+			<li><i>Screwjab Dagger</i>：修改投射物與命中效果以提升可見性</li>
+			<li><i>Lethal Venom</i>：現在會附加螢幕特效</li>
+			<li><i>Gun:</i> 傷害從12降低至11</li>
+			<li><i>Gun:</i> 修改彈道軌跡以改善高射速下的可見性</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_4"		"<b>11/26/2024</b><br>
+			<li><i>Gun:</i> 傷害從11降低至9</li>
+			<li><i>Gun:</i> 子彈速度從81 m/s提升至411 m/s</li>
+			<li><i>Gun:</i> 彈匣容量從18提升至24</li>
+			<li><i>Petrifying Bola</i>：投射物半徑從30提升至45</li>
+			<li>每個恩惠的生命值從35降低至30</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_viper_5"		"<b>12/06/2024</b><br>
+			<li>模型尺寸增加+15%</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_1"		"<b>10/24/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_2"		"<b>10/29/2024</b><br>
+			<li><i>Gun:</i> 現在能正確具有傷害衰減</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_3"		"<b>11/7/2024</b><br>
+			<li>現在具有終極技能 - <i>Grand Finale</i></li>
+			<li><i>Gun</i>：彈匣容量從20提升至22</li>
+			<li><i>Vexing Bolt</i>：現在施加20%射速緩速，而非移動速度緩速</li>
+			<li><i>Vexing Bolt</i>：傷害從100提升至120，魂能加成從1.2提升至1.4</li>
+			<li><i>Vexing Bolt</i>：減益持續時間從2s提升至5s</li>
+			<li><i>Vexing Bolt</i>：T2魂能削弱從-15%提升至-20%</li>
+			<li><i>Vexing Bolt</i>：T3升級現在賦予速度提升</li>
+			<li><i>Vexing Bolt</i>：可重新導向時現在會有UI提示</li>
+			<li><i>Spectral Assistant</i>：現在可以在空中施放</li>
+			<li><i>Rabbit Hex</i>：不再能夠對友軍施放</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_magician_4"		"<b>11/21/2024</b><br>
+			<li><i>Vexing Bolt</i>：現在永遠會與助手同時施放，但傷害降低</li>
+			<li><i>Vexing Bol</i>：更新升級效果以配合新行為</li>
+			<li><i>Vexing Bol</i>：魂能加成從1.4降低至1.2</li>
+			<li><i>Rabbit Hex</i>：魔術師現在能正確分辨兔子與青蛙，並將目標正確變成兔子</li>
+			<li><i>Rabbit Hex</i>：不再能夠對自己施放</li>
+			<li><i>Rabbit Hex</i>：現在施加最大速度上限，而非提升速度</li>
+			<li><i>Rabbit Hex</i>：T3升級現在對範圍內所有目標施加完整持續時間的詛咒</li>
+			<li><i>Spectral Assistant</i>：施放時現在會重新裝填武器</li>
+			<li><i>Spectral Assistant</i>：現在以兩連發形式開火</li>
+			<li><i>Spectral Assistant</i>：魂能傷害從1x60（加成0.5）降低至2x30（加成0.3）</li>
+			<li><i>Spectral Assistant</i>：彈道軌跡現在與武器彈道一致</li>
+			<li><i>Spectral Assistant</i>：改善目標尋找能力</li>
+			<li><i>Spectral Assistant</i>：修復助手施放後有時無法重新導向閃電的錯誤</li>
+			<li><i>Spectral Assistant</i>：傳送時鏡頭過渡更為流暢</li>
+			<li><i>Spectral Assistant</i>：施放範圍從20m降低至15m</li>
+			<li><i>Spectral Assistant</i>：更新升級效果以配合新行為</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_1"		"<b>12/06/2024</b><br>
+			<li>英雄已加入英雄實驗室</li>"
+		"Citadel_PatchNotes_HeroLabs_hero_operative_2"		"<b>12/17/2024</b><br>
+			<li>新增預設道具出裝</li>"
+	}
+}
