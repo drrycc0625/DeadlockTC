@@ -454,7 +454,7 @@
 		"modifier_kinetic_sash_triggered"	"動感衝刺"
 
 		//Active Reload
-		"upgrade_active_reload_desc"	"每隔一段時間，裝填時，在提示區間按下 [{s:key_reload}]，會<span class=\"highlight\">立即完成裝填並獲得射速和子彈吸血</span>。"
+		"upgrade_active_reload_desc"	"每隔一段時間，裝填時，在提示區間按下 {g:citadel_binding:'Reload'}，會<span class=\"highlight\">立即完成裝填並獲得射速和子彈吸血</span>。"
 		"upgrade_active_reload/buff"	"主動裝填"
 
 		//Arcane Medallion
